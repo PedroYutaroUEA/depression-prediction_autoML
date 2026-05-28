@@ -1,0 +1,14 @@
+[project]
+name = "anxiety-prediction-automl"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "flaml>=2.6.0",
+    "jupyter>=1.1.1",
+    "mljar-supervised>=1.2.2",
+    "notebook>=7.5.6",
+    "pandas>=3.0.3",
+    "scikit-learn>=1.8.0",
+]
