@@ -1,0 +1,52 @@
+{
+    "columns": [
+        "age",
+        "gender",
+        "daily_social_media_hours",
+        "sleep_hours",
+        "screen_time_before_sleep",
+        "academic_performance",
+        "physical_activity",
+        "social_interaction_level",
+        "addiction_level",
+        "platform_usage_Instagram",
+        "platform_usage_TikTok"
+    ],
+    "rows": 1870,
+    "cols": 11,
+    "target_is_numeric": true,
+    "columns_info": {
+        "age": [
+            "scale"
+        ],
+        "gender": [],
+        "daily_social_media_hours": [
+            "scale"
+        ],
+        "sleep_hours": [
+            "scale"
+        ],
+        "screen_time_before_sleep": [
+            "scale"
+        ],
+        "academic_performance": [
+            "scale"
+        ],
+        "physical_activity": [
+            "scale"
+        ],
+        "social_interaction_level": [
+            "scale"
+        ],
+        "addiction_level": [
+            "scale"
+        ],
+        "platform_usage_Instagram": [],
+        "platform_usage_TikTok": []
+    },
+    "target_info": [],
+    "n_features": 11,
+    "is_sample_weighted": false,
+    "is_fairness_applied": false,
+    "n_classes": 2
+}
