@@ -1,0 +1,77 @@
+{
+    "new_features": [
+        {
+            "feature1": "sleep_hours",
+            "feature2": "daily_social_media_hours",
+            "operation": "ratio",
+            "score": 0.2814961963
+        },
+        {
+            "feature1": "daily_social_media_hours",
+            "feature2": "sleep_hours",
+            "operation": "ratio",
+            "score": 0.2814961963
+        },
+        {
+            "feature1": "daily_social_media_hours",
+            "feature2": "sleep_hours",
+            "operation": "diff",
+            "score": 0.339280767
+        },
+        {
+            "feature1": "platform_usage_Instagram",
+            "feature2": "sleep_hours",
+            "operation": "sum",
+            "score": 0.3625651912
+        },
+        {
+            "feature1": "physical_activity",
+            "feature2": "sleep_hours",
+            "operation": "sum",
+            "score": 0.4338192883
+        },
+        {
+            "feature1": "gender",
+            "feature2": "daily_social_media_hours",
+            "operation": "diff",
+            "score": 0.4403646371
+        },
+        {
+            "feature1": "sleep_hours",
+            "feature2": "platform_usage_Instagram",
+            "operation": "diff",
+            "score": 0.4475021421
+        },
+        {
+            "feature1": "daily_social_media_hours",
+            "feature2": "platform_usage_TikTok",
+            "operation": "diff",
+            "score": 0.4490879623
+        },
+        {
+            "feature1": "sleep_hours",
+            "feature2": "platform_usage_TikTok",
+            "operation": "diff",
+            "score": 0.4588116289
+        },
+        {
+            "feature1": "daily_social_media_hours",
+            "feature2": "age",
+            "operation": "ratio",
+            "score": 0.4754788193
+        }
+    ],
+    "new_columns": [
+        "sleep_hours_ratio_daily_social_media_hours",
+        "daily_social_media_hours_ratio_sleep_hours",
+        "daily_social_media_hours_diff_sleep_hours",
+        "platform_usage_Instagram_sum_sleep_hours",
+        "physical_activity_sum_sleep_hours",
+        "gender_diff_daily_social_media_hours",
+        "sleep_hours_diff_platform_usage_Instagram",
+        "daily_social_media_hours_diff_platform_usage_TikTok",
+        "sleep_hours_diff_platform_usage_TikTok",
+        "daily_social_media_hours_ratio_age"
+    ],
+    "ml_task": "binary_classification"
+}
